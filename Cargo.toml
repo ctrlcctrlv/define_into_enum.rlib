@@ -1,0 +1,9 @@
+[package]
+name = "define_into_enum"
+description = "Defines Into<T> on an enum where all variants wrap T."
+version = "0.1.0"
+edition = "2021"
+keywords = ["enum", "macros"]
+categories = ["development-tools::procedural-macro-helpers", "rust-patterns"]
+license = "Apache-2.0"
+repository = "https://github.com/ctrlcctrlv/define_into_enum.rlib"
