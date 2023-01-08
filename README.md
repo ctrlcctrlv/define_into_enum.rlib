@@ -1,4 +1,4 @@
-# `define_into_enum!` v1.0.0
+# `define_into_enum!` v0.1.1
 
 This defines a single macro, `define_into_enum!`, which is meant to be compile as e.g.:
 
@@ -16,7 +16,7 @@ define_into_enum! {
 }
 ```
 
-And then it will `impl Into<&'a str> for TestEnum`, converting all `v` to `v`.
+And then it will `impl Into<(usize, usize)> for TestEnum`, converting all `(v1, v2)` to `(v1, v2)`.
 
 Works with meta-tags as well:
 
